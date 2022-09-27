@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=t, initial-scale=1.0" />
+    <title>touch-nums</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onload="onInit()">
+    <h1>touch the nums</h1>
+  
+
+    <button class="easy" onclick="levels(9)">easy</button>
+    <button class="mid" onclick="levels(16)">mid</button>
+    <button class="difficult" onclick="levels(25)">difficult</button>
+
+    <table class="table"  cellpadding="10">
+      <tbody class="board"></tbody>
+    </table>
+    <div class="timer-container">
+        <div class="timer">00:00</div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    margin:20px;
+    background:hsla(0, 48%, 57%, 0.3);
+    text-align:center;
+    background-image: url('../css/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+h1{
+    color: lightskyblue;
+    font-family:cursive;
+    font-size: 75px;
+}
+
+button{
+    color: rgb(211, 28, 202);
+    border: none;
+    font-family:Impact;
+    font-size: 28px;
+    border-radius: 15%;
+    margin-bottom: 50px;
+    background-color: rgb(157, 158, 224);
+}
+
+.table{
+    margin: 0 auto;
+}
+
+.board{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+ 
+}
+
+tr{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 119, 255, 0.534);
+}
+
+td{
+    cursor: pointer;
+    box-shadow: inset 1px 1px 11px;
+    border-radius: 5px;
+}
+
+td :hover{
+    background-color: blueviolet;
+}
+.win{
+    color: lightskyblue;
+    font-family:Impact;
+    font-size: 75px;  
+    margin-top: 20px;
+}
+.timer-container{
+    font-size: 20px;
+    padding-top: 50px;
+    color: aliceblue;
+}
